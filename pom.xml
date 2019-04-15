@@ -11,7 +11,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<!-- Spring -->
-		<spring-framework.version>3.2.3.RELEASE</spring-framework.version>		
+		<!-- @autowire에서 injection 및 등등 전부다 지원하는경우는 4.x대 부터 인듯? -->
+		<spring-framework.version>4.0.1.RELEASE</spring-framework.version>		
 		<!-- Logging -->		
 		<slf4j.version>${spring-framework.version}</slf4j.version>
 
